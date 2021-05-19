@@ -14,5 +14,5 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: prd-and-dr-cluster
+      name: prd-cluster
 
