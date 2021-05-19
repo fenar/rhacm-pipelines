@@ -14,5 +14,5 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: nonprod-cluster
+      name: dev-cluster
 
