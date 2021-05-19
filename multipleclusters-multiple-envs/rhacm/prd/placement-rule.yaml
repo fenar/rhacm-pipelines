@@ -3,7 +3,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: prd-and-dr-cluster
+  name: prd-cluster
   namespace: etherpad-acm-prd
 spec:
   clusterConditions:
@@ -15,4 +15,3 @@ spec:
       operator: In
       values:
       - prod
-      - dr
