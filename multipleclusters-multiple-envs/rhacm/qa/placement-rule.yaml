@@ -3,7 +3,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: nonprod-cluster
+  name: qa-cluster
   namespace: etherpad-acm-qa
 spec:
   clusterConditions:
@@ -11,4 +11,4 @@ spec:
       status: "True"
   clusterSelector:
     matchLabels:
-      environment: nonprod
+      environment: qa
